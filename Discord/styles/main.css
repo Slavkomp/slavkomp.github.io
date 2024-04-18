@@ -1,0 +1,71 @@
+body, html {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	margin: auto;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.grMain {
+	margin: 0 auto;
+	display: grid;
+	width: 1290px;
+	grid-template-columns: 70px 280px 1fr 280px;
+	grid-template-areas:
+	"header-1	header-2	header-3	header-4"
+	"base-1		base-2		base-3		base-4"
+}
+
+.dHeader1 {
+	grid-area: header-1;
+	background-color: black;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.dHeader2 {
+	grid-area: header-2;
+	background-color: #170e4f;
+	height: 70px;
+	color: aliceblue;
+}
+
+.dHeader3 {
+	grid-area: header-3;
+	background-color: #211857;
+	height: 70px;
+	color: aliceblue;
+}
+
+.dHeader4 {
+	grid-area: header-4;
+	background-color: #170e4f;
+	height: 70px;
+	color: aliceblue;
+}
+
+.dBase1 {
+	grid-area: base-1;
+	background-color: black;
+}
+
+.dBase2 {
+	grid-area: base-2;
+	background-color: #211857;
+	color: aliceblue;
+}
+
+.dBase3 {
+	grid-area: base-3;
+	background-color: #170e4f;
+	color: aliceblue;
+}
+
+.dBase4 {
+	grid-area: base-4;
+	background-color: #211857;
+	color: aliceblue;
+}
